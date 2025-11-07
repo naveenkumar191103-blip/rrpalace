@@ -18,12 +18,21 @@ const Footer = () => {
               <div className="flex items-start gap-2 text-sm">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span className="opacity-90">
-                  126 Periya, Kolathuvancheri Main Road, Balaji Nagar, Papanthangal, Chennai, Tamil Nadu 600122
+                  No: 10/17, MGR Street, Paraniputhur Road, Iyyappanthangal, Chennai-600056
                 </span>
               </div>
               <div className="flex items-center gap-2 text-sm">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <span className="opacity-90">rrpalace@gmail.com</span>
+                <span className="opacity-90">rajupmk78@gmail.com</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm">
+                <Phone className="h-4 w-4 flex-shrink-0" />
+                <span className="opacity-90">+91 62625 50404</span>
+              </div>
+
+              <div className="flex items-center gap-2 text-sm">
+                <Phone className="h-4 w-4 flex-shrink-0" />
+                <span className="opacity-90">+91 87788 97543</span>
               </div>
             </div>
           </div>
