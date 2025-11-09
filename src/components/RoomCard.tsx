@@ -22,6 +22,7 @@ const amenityIcons: Record<string, any> = {
 };
 
 const RoomCard = ({ id, name, price, description, amenities, imageUrl, available }: RoomCardProps) => {
+  console.log('imageUrl :>> ', imageUrl);
   return (
     <Card className="overflow-hidden hover:shadow-[var(--shadow-elegant)] transition-shadow">
       <div className="relative h-64 overflow-hidden">

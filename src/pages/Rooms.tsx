@@ -17,6 +17,7 @@ const Rooms = () => {
       return data;
     },
   });
+  console.log('rooms :>> ', rooms);
 
   return (
     <div className="min-h-screen">
